@@ -8,7 +8,7 @@ except:
 
 def add():
         with open(filename,"a") as file:
-        additem = input("Enter item to add: ") 
-        file.write(additem + "\n")
+            additem = input("Enter item to add: ") 
+            file.write(additem + "\n")
             
     
